@@ -1,0 +1,48 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+    color: white;
+    /* font-family: "Lexend Deca", serif; */
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main2 h2{
+    font-size: xx-large;
+    /* width: 400px; */
+    margin-bottom: 20px;
+    background-color: (0, 0%, 100%);
+    font-family: "Lexend Deca", serif;
+}
+.stats{
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    margin-top: 45px;
+    font-family: "Inter", serif;
+}
+
+.main2{
+    background-color: hsl(244, 38%, 16%);
+    height: 450px;
+    width: 480px;
+    padding-left: 45px;
+}
+
+.image{
+    /* height: 200px; */
+    background-color: hsl(277, 64%, 61%);
+}
+
+span{
+    color: hsl(277, 64%, 61%);
+}
+
+.main2 p{
+    font-family: "Inter", serif;
+    margin-top: 50px;
+}
