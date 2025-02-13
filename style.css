@@ -33,9 +33,10 @@ body{
     padding-left: 45px;
 }
 
-.image{
-    color: hsl(277, 64%, 61%);
-    /* opacity: 0.5; */
+.image::after{
+    background-color: hsl(277, 64%, 61%);
+    opacity: 0.5;
+    mix-blend-mode: color;
 }
 
 span{
